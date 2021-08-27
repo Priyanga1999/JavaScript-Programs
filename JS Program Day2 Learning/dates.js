@@ -1,0 +1,28 @@
+const timeNow = new Date();
+console.log(timeNow);
+const time1 = new Date(0);
+console.log(time1); 
+const time2 = new Date(100000000000)
+console.log(time2);
+const date = new Date("2020-07-01");
+console.log(date); 
+const date1= new Date("2020-07");
+console.log(date1); 
+const date2 = new Date("2020");
+console.log(date2); 
+const date3 = new Date("2020-07-01T12:00:00Z");
+console.log(date3); 
+const time3 = new Date(2020, 1, 20, 4, 12, 11, 0);
+console.log(time3);
+const time4= new Date(2020, 1, 20, 4);
+console.log(time4);
+const time5 = new Date(2020, 1);
+console.log(time5); 
+const currentDate = new Date();
+const date4 = currentDate.getDate();
+const month = currentDate.getMonth();
+const year = currentDate.getFullYear();
+let monthDateYear = (month+1) + '/' + date4 + '/' + year;
+console.log(monthDateYear);
+const date5 = new Date(2008, 0, 33);
+console.log(date5);
