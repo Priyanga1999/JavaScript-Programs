@@ -1,0 +1,6 @@
+function myfun(name)
+{
+    console.log("my name is"+name);
+}
+
+myfun("preethi")
